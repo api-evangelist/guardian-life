@@ -1,7 +1,12 @@
 aid: guardian-life
-url: https://raw.githubusercontent.com/api-evangelist/guardian-life/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/guardian-life/refs/heads/main/apis.yml
 modified: '2026-03-21'
 apis: []
 common:
   - type: Website
     url: https://www.guardian-life.com
+description: >-
+  Guardian Life is one of the largest mutual life insurance companies in the United
+  States, providing life insurance, disability income insurance, dental insurance,
+  and other employee benefits.

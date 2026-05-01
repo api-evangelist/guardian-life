@@ -1,33 +1,35 @@
 # Guardian Life (guardian-life)
-Guardian Life is a Fortune 500 company. This repository captures the APIs, developer tools, and machine-readable API artifacts for Guardian Life.
+Guardian Life is one of the largest mutual life insurance companies in the United States, providing life insurance, disability income insurance, dental insurance, and other employee benefits.
 
 **URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/guardian-life/refs/heads/main/apis.yml)
 
 ## Scope
 
-- **Type:** Contract
+- **Type:** Index
 - **Position:** Consuming
 - **Access:** 3rd-Party
 
-## Tags:
+## Tags
 
- - Fortune 500
+- Insurance, Life Insurance, Disability Insurance, Dental Insurance, Employee Benefits, Fortune 500
 
 ## Timestamps
 
 - **Created:** 2026-03-21
-- **Modified:** 2026-03-21
+- **Modified:** 2026-04-28
 
 ## APIs
 
-No public APIs have been documented yet. Contributions welcome.
+No public APIs have been documented. Guardian Life does not currently expose a public developer portal or OpenAPI specifications. Partner and producer integrations are handled through direct business relationships.
 
 ## Common Properties
 
-- [Website](https://www.guardian-life.com)
+- [Website](https://www.guardianlife.com)
+- [About](https://www.guardianlife.com/about-guardian)
+- [Contact](https://www.guardianlife.com/contact-us)
 
 ## Maintainers
 
-**FN:** API Evangelist
+**FN:** Kin Lane
 
-**Email:** info@apievangelist.com
+**Email:** kin@apievangelist.com

@@ -132,6 +132,11 @@ apis:
   - Quoting
   - Rating
   - Group Insurance
+  - Brokers
+  tags_raw:
+  - Quoting
+  - Rating
+  - Group Insurance
   - Broker
   properties:
   - type: APIReference
@@ -211,6 +216,11 @@ apis:
   - Life Insurance
   - Disability Insurance
   - Application
+  - Agents
+  tags_raw:
+  - Life Insurance
+  - Disability Insurance
+  - Application
   - Agent
   properties:
   - type: APIReference
@@ -222,6 +232,9 @@ apis:
     retrieve, and update metadata of documents within the FileNet CM repository.
   humanURL: https://developer.guardianlife.com/api/62
   tags:
+  - Document-Management
+  - Content Management
+  tags_raw:
   - Document Management
   - Content Management
   properties:

@@ -141,7 +141,7 @@ apis:
   humanURL: https://developer.guardianlife.com/api/38
   tags:
   - Quoting
-  - Rating
+  - Ratings
   - Group Insurance
   - Brokers
   tags_raw:

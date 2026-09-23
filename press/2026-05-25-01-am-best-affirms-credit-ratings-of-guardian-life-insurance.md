@@ -1,7 +1,9 @@
 ---
 title: AM Best Affirms Credit Ratings of Guardian Life Insurance ...
 url: https://news.ambest.com/newscontent.aspx?refnum=242902&altsrc=23
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Guardian Life Ins. Co. of America" press release artificial intelligence'
 position: 1
 source: serpapi-google

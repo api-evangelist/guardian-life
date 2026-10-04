@@ -243,11 +243,12 @@ apis:
     retrieve, and update metadata of documents within the FileNet CM repository.
   humanURL: https://developer.guardianlife.com/api/62
   tags:
-  - Document-Management
+  - Document Management
   - Content Management
   tags_raw:
   - Document Management
   - Content Management
+  - Document-Management
   properties:
   - type: APIReference
     url: https://developer.guardianlife.com/api/62

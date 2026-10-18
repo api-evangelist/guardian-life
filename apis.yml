@@ -143,12 +143,13 @@ apis:
   - Quoting
   - Ratings
   - Group Insurance
-  - Brokers
+  - Brokerage
   tags_raw:
   - Quoting
   - Rating
   - Group Insurance
   - Broker
+  - Brokers
   properties:
   - type: APIReference
     url: https://developer.guardianlife.com/api/38

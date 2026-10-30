@@ -1,4 +1,4 @@
-# Guardian Life (guardian-life)
+# Guardian Life
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,37 +64,102 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Guardian Life is one of the largest mutual life insurance companies in the United States, providing life insurance, disability income insurance, dental insurance, and other employee benefits.
+The Guardian Life Insurance Company of America is one of the largest mutual life insurance companies in the United States, providing life insurance, disability income insurance, dental insurance, and other employee benefits. Guardian operates a partner developer portal, Guardian Connect, built on Apigee, exposing a catalog of group and retail insurance APIs covering evidence of insurability, member benefits enrollment, policy and plan configuration, group rating and quoting, dental provider directory and verification of benefits, underwriting data, and life illustration. The Member Benefits APIs implement the LIMRA Data Exchange (LDEx) Standards. Access is partner-gated: a partner agreement is established first, after which Guardian issues a registration code and partner key, and API keys are minted per partner app subject to administrator approval. Authentication is JWT with OpenID Connect login. No OpenAPI, Swagger, or other machine-readable contract is published publicly — the API reference sits behind partner login — so the APIs below are recorded from Guardian's own public catalog descriptions.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/guardian-life/refs/heads/main/apis.yml)
+**Areas:** Insurance · Life Insurance · Disability Insurance · Dental Insurance · Employee Benefits · Benefits Administration · Group Insurance · Underwriting · Claims Processing · LDEx · Fortune 500
 
-## Scope
+## Guardian Life on APIs.io
 
-- **Type:** Index
-- **Position:** Consuming
-- **Access:** 3rd-Party
+Everything profiled for Guardian Life is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/guardian-life/](https://apis.io/providers/guardian-life/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (15)
 
-- Insurance, Life Insurance, Disability Insurance, Dental Insurance, Employee Benefits, Fortune 500
+- [Evidence of Insurability (EOI) API](https://apis.io/apis/guardian-life/evidence-of-insurability/) — Secure, real-time EOI decisioning on a benefit technology partner's platform when required by an elected Guardian benefit. Employees required to submit EOI…
+- [Benefits API](https://apis.io/apis/guardian-life/benefits/) — Secure, real-time access to read and update employee and dependent benefit data. Once a Guardian policy is established, benefit technology partners use the…
+- [Policy API](https://apis.io/apis/guardian-life/policy/) — Secure, real-time access to Guardian benefit plan information including all of the insurance product rules, attributes, and rates required to configure a…
+- [Retail Individual Products](https://apis.io/apis/guardian-life/retail-individual-products/) — Real-time quote and product info exposed through higher-level capabilities rather than lower-level APIs requiring intimate system knowledge, fronted by an…
+- [Group Rating & Quoting API](https://apis.io/apis/guardian-life/group-rating-quoting/) — Secure, real-time access to request and retrieve a quote for Guardian products. The technology partner requests a quote for any product by supplying…
+- [HMB API](https://apis.io/apis/guardian-life/hmb/) — Create and access membership information for the HMB membership.
+- [Underwriting Data Service](https://apis.io/apis/guardian-life/underwriting-data-service/) — Centralized Underwriting Data API providing business and technical services for saving and retrieving underwriting data from the Centralized Underwriting…
+- [Group Dental Provider API](https://apis.io/apis/guardian-life/group-dental-provider/) — Returns a list of providers with location information for Group Commercial Dental Insurance.
+- [GPS Illustration API](https://apis.io/apis/guardian-life/gps-illustration/) — Generates illustrations for life insurance products.
+- [Group Verification of Benefits API](https://apis.io/apis/guardian-life/group-verification-of-benefits/) — Secure, real-time access to request provider benefits verification for members and dependents. The technology partner generates a request by supplying group…
+- [Guardian eSuite Prefill API](https://apis.io/apis/guardian-life/esuite-prefill/) — Allows third parties such as agents and partners to securely send application prefill information related to a potential client's life or disability…
+- [IBM FileNet Content Manager API](https://apis.io/apis/guardian-life/filenet-content-manager/) — FileNet CM REST APIs allowing authorized external vendors and partners to add, search, retrieve, and update metadata of documents within the FileNet CM…
+- [eOffer Policy External](https://apis.io/apis/guardian-life/eoffer-policy-external/) — API to post eOffer policy information.
+- [Avantos to SmartOffice Contact Sync API](https://apis.io/apis/guardian-life/avantos-smartoffice-contact-sync/) — A Guardian Online (GOL) API that connects Avantos and SmartOffice to synchronize contact data and support SSN lookup for Avantos.
+- [FINRA License Check API](https://apis.io/apis/guardian-life/finra-license-check/) — Validates the regulatory licensing status of financial professionals or firms registered with the Financial Industry Regulatory Authority (FINRA), ensuring…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-21
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (2)
 
-No public APIs have been documented. Guardian Life does not currently expose a public developer portal or OpenAPI specifications. Partner and producer integrations are handled through direct business relationships.
+Authentication, trust centre, and vulnerability disclosure.
 
-## Common Properties
+- [Guardian Life Domain Security](https://apis.io/security/guardian-life/guardian-life-domain-security/)
+- [Guardian Life Vulnerability Disclosure](https://apis.io/security/guardian-life/guardian-life-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.guardianlife.com)
-- [About](https://www.guardianlife.com/about-guardian)
-- [Contact](https://www.guardianlife.com/contact-us)
+- [Getting started](https://developer.guardianlife.com/getting-started)
+- [API reference](https://developer.guardianlife.com/apis)
+- [Support](https://developer.guardianlife.com/contact/feedback)
+- [Terms of service](https://developer.guardianlife.com/terms-and-conditions)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 17.3** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 23.7 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 14.0** — Insurance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/guardian-life/](https://apis.io/providers/guardian-life/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Guardian Life: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/guardian-life/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
